@@ -27,19 +27,19 @@ body{
     font-size: 70px;
 }
 
-#middlebar{
+.middlebar{
     background-color: rgb(75, 6, 6);
     padding: 20px;
 }
 
-#middlebar ul{
+.middlebar ul{
     list-style: none;
     color: white;
     display: flex;
     justify-content: space-around;
 }
 
-#middlebar ul li img{
+.middlebar ul li img{
     width: 19px;
     height: 19px;
     border-radius: 50%;
