@@ -1,13 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-body{
+body {
     background-color: lightgray;
 }
 
-#topbar{
+#topbar {
     background-color: maroon;
     display: flex;
     justify-content: space-around;
@@ -16,44 +16,48 @@ body{
     padding: 50px 0px;
 }
 
-#topbar img{
+#topbar img {
     height: 200px;
     width: 200px;
     border-radius: 50%;
     background-color: lightgrey;
 }
 
-#topbar h1{
+#topbar h1 {
     font-size: 70px;
 }
 
-.middlebar{
+.middlebarlarge {
     background-color: rgb(75, 6, 6);
     padding: 20px;
 }
 
-.middlebar ul{
+.middlebarlarge ul {
     list-style: none;
     color: white;
     display: flex;
     justify-content: space-around;
 }
 
-.middlebar ul li img{
+.middlebarlarge ul li img {
     width: 19px;
     height: 19px;
     border-radius: 50%;
     background-color: lightgray;
 }
 
-#bodybar{
+.middlebarlarge ul li a {
+    font-size: 19px;
+}
+
+#bodybar {
     background-color: lightgray;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    padding:40px
+    padding: 40px
 }
 
-#bodybar div{
+#bodybar div {
     width: 45%;
 }
