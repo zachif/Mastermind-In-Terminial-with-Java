@@ -17,17 +17,8 @@ body {
         color: white;
         padding: 50px 0px;
     }
-}
 
-@media only screen and (max-width: 651px) {
-    .topbarsmall{
-        background-color: maroon;
-        display: block;
-        align-items: center;
-        color: white;
-        padding: 50px 50px;
-    }
-    .topbarsmall img {
+    .profileimage {
         height: 200px;
         width: 200px;
         border-radius: 50%;
@@ -35,12 +26,21 @@ body {
     }
 }
 
-.topbarlarge img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background-color: lightgrey;
+@media only screen and (max-width: 651px) {
+    .topbarsmall {
+        background-color: maroon;
+        display: block;
+        align-items: center;
+        color: white;
+        padding: 50px 50px;
+    }
+
+    .profileimage {
+        display: none;
+    }
 }
+
+
 
 .topbarlarge h1 {
     font-size: 70px;
